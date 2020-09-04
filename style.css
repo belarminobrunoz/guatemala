@@ -1,0 +1,108 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url("https://images.unsplash.com/photo-1445112098124-3e76dd67983c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80");
+    padding: 15px;
+}
+
+#banner {
+    width: 15%;
+    padding-left: 20px;
+}
+
+.principal {
+    background-color: rgb(128, 187, 255);
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    /* Position Absolute faz com que o elemento, neste caso o nav fique em uma camada superior da tela, sendo assim possível movê-lo para qualquer lugar dentro da tela*/
+    top: 50px;
+    /*0 representa a distancia do elemento nav do topo, neste caso zero*/
+    right: 0;
+    /*0 representa a distancia do elemento nav da direita, neste caso zero*/
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    /*margin: esq cima baixo dir */
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: #000000;
+}
+
+#missao {
+    font-size: 20px;
+    color: #000000;
+    background: #CCCCCC;
+    padding: 15px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    color: #000000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.idioma {
+    padding: 30px;
+    background: #FFFFFF;
+}
+
+.infosgerais {
+    background: rgb(128, 187, 255);
+    padding: 30px;
+    font-size: 150%;
+}
+
+#itens_infosgerais {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+.imgBeneficios {
+    width: 25%;
+}
+
+footer {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+#copyright {
+    font-size: 15px;
+}
