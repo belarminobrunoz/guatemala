@@ -1,19 +1,56 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-.banner {
+#banner {
     width: 15%;
     padding-left: 20px;
     padding-top: 10px;
 }
 
+nav {
+    position: absolute;
+    /* Position Absolute faz com que o elemento, neste caso o nav fique em uma camada superior da tela, sendo assim possível movê-lo para qualquer lugar dentro da tela*/
+    top: 50px;
+    /*0 representa a distancia do elemento nav do topo, neste caso zero*/
+    right: 0;
+    /*0 representa a distancia do elemento nav da direita, neste caso zero*/
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    /*margin: esq cima baixo dir */
+}
+
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+.titulo-principal {
+    padding-left: 20px;
 }
 
 nav li {
@@ -24,4 +61,54 @@ nav li {
 nav a {
     text-decoration: none;
     color: #000000;
+}
+
+.localidades {
+    /* width: 940px; */
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.localidades li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.localidades img {
+    width: 75%;
+    height: 75%;
+}
+
+.localidades li:hover {
+    border-color: rgb(21, 170, 207);
+}
+
+.localidades li:active {
+    border-color: rgb(7, 204, 73);
+}
+
+.saiba-mais img {
+    width: 25px;
+}
+
+.saiba-mais {
+    vertical-align: top;
+    background-color: #4CAF50;
+    font-size: 20px;
+    border-radius: 5px;
+    vertical-align: top;
+    transition-duration: 0.4s;
+}
+
+.saiba-mais:hover {
+    background-color: #000000;
+    color: azure;
 }
