@@ -107,7 +107,7 @@
     }
     
     form label,
-    form p {
+    form legend {
         /*para que eu aplique as mesmas configurações a diferentes elementos, basta incluir uma virgula, conforme exemplo acima*/
         display: block;
         font-size: 20px;
@@ -132,4 +132,21 @@
     .input-checkbox {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    
+    .enviar {
+        width: 40%;
+        padding: 15px 0;
+        background-color: orange;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 1s background;
+        cursor: pointer;
+    }
+    
+    .enviar:hover {
+        background-color: rgb(255, 0, 0);
     }
