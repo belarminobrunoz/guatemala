@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px;
 }
 
@@ -124,4 +124,28 @@ nav a {
     background-color: #ffee04;
     color: #000000;
     font-size: 25px;
+}
+
+@media screen and (max-width:480px) {
+    .caixa {
+        width: auto;
+    }
+    .localidades li {
+        width: auto;
+        padding: 0 0;
+    }
+    header {
+        text-align: center;
+    }
+    .lista-menu {
+        padding: 0 0;
+    }
+    nav {
+        position: relative;
+        text-align: center;
+    }
+    .itens-menu {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
