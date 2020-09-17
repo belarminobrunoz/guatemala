@@ -96,12 +96,27 @@ p {
     list-style-type: none;
 }
 
+.mapa {
+    width: 500px;
+    height: 300px
+}
+
 .imgBeneficios {
     width: 25%;
 }
 
+.div-video-apresentacao {
+    font-size: 150%;
+    text-align: center;
+    padding: 15px 15%;
+    width: auto;
+    background: white;
+}
+
+.video-apresentacao {}
+
 footer {
-    background: #FFFFFF;
+    background: rgb(128, 187, 255);
     padding: 20px;
 }
 
@@ -127,9 +142,16 @@ footer {
     #itens_infosgerais {
         display: inline;
         font-style: italic;
+        padding: 0 0;
+    }
+    .mapa {
+        width: 100%;
     }
     .imgBeneficios {
         width: 50%;
         margin: 50px 25%;
+    }
+    .div-video-apresentacao {
+        padding: 25px 25px;
     }
 }
