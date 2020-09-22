@@ -1,0 +1,52 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+header {
+    padding-bottom: 25px;
+    display: inline;
+}
+
+.cabecalho {
+    background: #00ffff;
+    padding-bottom: 25px;
+}
+
+.imagem-banner {
+    padding: 10px;
+    width: 15%;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+main {
+    padding: 15px;
+}
+
+form label {
+    display: block;
+}
+
+.itens-forms {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.campos-forms {
+    width: 50%;
+    padding: 15px;
+    border: solid 1px #565757;
+    border-radius: 10px;
+}
+
+.forma-de-contato {}

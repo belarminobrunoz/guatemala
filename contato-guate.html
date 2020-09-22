@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Guatemala</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="style-contato-guate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="imagem-banner" src="imagens/guatemala-flag-large.png" alt="Bandeira da Guatemala">
+            <nav>
+                <li>home</li>
+                <li>turismo</li>
+                <li>Contato</li>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label class="itens-forms">Nome e sobrenome</label>
+            <input class="campos-forms" type="text" placeholder="Insira seu nome aqui">
+
+            <label class="itens-forms">Endereço de e-mail</label>
+            <input class="campos-forms" type="email" placeholder="fulano@gmail.com">
+
+            <label class="itens-forms">Telefone</label>
+            <input class="campos-forms" type="tel" placeholder="(XX) XXXXX-XXXX">
+
+            <label class="itens-forms">Mensagem</label>
+            <textarea class="campos-forms" maxlength="300" placeholder="Digite sua mensagem aqui..." cols="50" rows="20"></textarea>
+
+            <label class="itens-forms">Como prefere nosso contato?</label>
+            <input type="radio" name="tipo-contato" class="forma-de-contato">Email
+            <input type="radio" name="tipo-contato" class="forma-de-contato">Telefone
+            <input type="radio" name="tipo-contato" class="forma-de-contato">WhatsApp
+
+            <label class="itens-forms">Qual horário prefere ser atendido?</label>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+            <label class="itens-forms">Gostaria de receber nossas novidades por email?</label>
+            <input type="checkbox" checked>
+
+            <input type="submit" value="Enviar formulário">
+        </form>
+    </main>
+
+
+</body>
+
+</html>
