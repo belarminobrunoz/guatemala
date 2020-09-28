@@ -14,27 +14,29 @@
     <header>
         <div class="cabecalho">
             <img class="imagem-banner" src="imagens/guatemala-flag-large.png" alt="Bandeira da Guatemala">
+            <h1 class="texto-principal">Guatemala</h1>
+            <h1 class="texto-principal">Contato </h1>
             <nav>
-                <li>home</li>
-                <li>turismo</li>
-                <li>Contato</li>
+                <li><a class="itens-nav" href="./index.html">home</a></li>
+                <li><a class="itens-nav" href="./turismo.html">turismo</a></li>
+                <li><a class="itens-nav" href="./contato-guate.html">contato</a></li>
             </nav>
         </div>
     </header>
 
     <main>
         <form>
-            <label class="itens-forms">Nome e sobrenome</label>
-            <input class="campos-forms" type="text" placeholder="Insira seu nome aqui">
+            <label class="itens-forms" for="nomesobrenome">Nome e sobrenome</label>
+            <input class="campos-forms" type="text" id="nomesobrenome" placeholder="Insira seu nome aqui">
 
-            <label class="itens-forms">Endereço de e-mail</label>
-            <input class="campos-forms" type="email" placeholder="fulano@gmail.com">
+            <label class="itens-forms" for="endemail">Endereço de e-mail</label>
+            <input class="campos-forms" id="endemail" type="email" placeholder="fulano@gmail.com">
 
-            <label class="itens-forms">Telefone</label>
-            <input class="campos-forms" type="tel" placeholder="(XX) XXXXX-XXXX">
+            <label class="itens-forms" for="telefone">Telefone</label>
+            <input class="campos-forms" type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX">
 
-            <label class="itens-forms">Mensagem</label>
-            <textarea class="campos-forms" maxlength="300" placeholder="Digite sua mensagem aqui..." cols="50" rows="20"></textarea>
+            <label class="itens-forms" for="mensagem">Mensagem</label>
+            <textarea class="campos-forms" id="mensagem" maxlength="300" placeholder="Digite sua mensagem aqui..." cols="50" rows="20"></textarea>
 
             <label class="itens-forms">Como prefere nosso contato?</label>
             <input type="radio" name="tipo-contato" class="forma-de-contato">Email
@@ -48,10 +50,9 @@
                 <option>Noite</option>
             </select>
 
-            <label class="itens-forms">Gostaria de receber nossas novidades por email?</label>
-            <input type="checkbox" checked>
+            <label class="itens-forms"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
-            <input type="submit" value="Enviar formulário">
+            <input class="envia-forms" type="submit" value="Enviar formulário">
         </form>
     </main>
 

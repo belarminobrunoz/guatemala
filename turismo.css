@@ -2,6 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
     margin: 0 150px;
+    background-color: #e0fbfd;
 }
 
 .caixa {
@@ -83,6 +84,7 @@ nav a {
     border: 2px solid #000000;
     border-radius: 10px;
     transition-duration: 0.1s;
+    background-color: #FFFFFF
 }
 
 .localidades img {
@@ -99,10 +101,6 @@ nav a {
 
 .localidades li:hover {
     border-color: rgb(21, 170, 207);
-}
-
-.localidades li:active {
-    border-color: rgb(7, 204, 73);
 }
 
 .saiba-mais img {
